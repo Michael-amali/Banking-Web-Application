@@ -195,3 +195,66 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* TEXT ON IMAGE */
+.text_on_img{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 198px;
+    right: 50px;
+    width: 100%;
+    text-align: left;
+  }
+  hr{
+    width: 300px;
+    border-color: orange;
+    position: relative;
+    bottom: 40px;
+    right: 450px;
+  }
+  .img_txt{
+    font-size: 48px;
+  }
+  
+  
+  
+  /* BOX 1 */
+  
+  .box1{
+    background-color:#f3f3f4;
+    color: #3c4b6c;
+  }
+  .box1_grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+      position: relative;
+      left: 30px;
+      color: #3c4b6c;
+      box-sizing: border-box;
+  }
+  
+  .featured_stuff{
+    position: relative;
+    padding: 30px;
+  }
+  .box1_head{
+    font-size: larger;
+  }
+  .featured_pro{
+      position: relative;
+      left: 30px;
+  }
+  .width-modifier{
+      width: 400px;
+      background-color: white;
+  }
+  .box1_text{
+    
+  }
+  .img_width{
+      width: 400px;  
+  }
+  
