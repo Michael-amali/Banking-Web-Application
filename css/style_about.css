@@ -1,0 +1,98 @@
+
+  html, body{
+    font-family:  "Segoe UI", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+      max-width: 100%;
+      overflow-x: hidden;
+      
+  }
+  .main-container {
+    font-family: "Segoe UI";
+    border: 1px solid orange;
+   
+  }
+  .header_bar {
+    display: grid;
+    height: 100px;
+    line-height: 18px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #424242;
+    color: #3c4b6c;
+  }
+  .header_sales {
+    height: 2em;
+    padding: 0px;
+  }
+  
+  .header_sales > p.sales_text {
+    font-size: small;
+    position: relative;
+    left: 1050px;
+  }
+  #searchTextBox{
+    width: 100px;
+    /* border-radius: 15px; */
+    border-color: purple;
+  }
+  
+  .nav_bar {
+    display: inline;
+  }
+  
+  .nav_bar img#cloud_icon {
+    position: relative;
+    left: 0px;
+    width: 100px;
+    display: inline;
+    margin-left: 70px;
+    margin-right: 30px;
+    bottom: 30px;
+  }
+  
+  .nav_bar .nav_items {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    height: 0px;
+    line-height: 0px;
+    border-bottom: 3px solid transparent;
+    color: #222;
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+  }
+  
+  .nav_bar .nav_items a {
+    padding-left: 20px;
+    text-decoration: none;
+  }
+  
+  /* hovering for nav items */
+  .nav_bar .nav_items a:hover {
+    border-bottom: 3px solid #f48120;
+    padding-bottom: 32px;
+  }
+  
+  .nav_bar .nav_logging {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 13px;
+    height: 0px;
+    line-height: 0px;
+    border-bottom: 3px solid transparent;
+    color: #222;
+    position: relative;
+    bottom: 70px;
+    left: 250px;
+  }
+  
+  .nav_bar .nav_logging a {
+    padding-left: 20px;
+    text-decoration: none;
+    position: relative;
+    right: 0px;
+  }
+  /* hovering for login side */
+  .nav_bar .nav_logging a:hover {
+    border-bottom: 3px solid #f48120;
+    padding-bottom: 32px;
+  }
