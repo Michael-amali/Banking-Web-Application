@@ -96,6 +96,28 @@ body {
   padding-bottom: 32px;
 }
 
+.Product_background_div {
+  background-color: #f3f3f4;
+  padding: 0px 30px;
+}
+
+.img_of_text {
+  position: relative;
+  bottom: 190px;
+  color: white;
+  font-size: 80px;
+  margin-bottom: 0px;
+  left: 60px;
+}
+.contact_img {
+  position: relative;
+  right: 32px;
+}
+.img_txt {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
 /* SAVINGS AND INVESTMENT */
 .SavingInvestment {
   display: grid;
@@ -143,6 +165,74 @@ body {
   color: #0055dc;
   margin-bottom: 1rem;
 }
+/* END OF SAVINGS AND INVESTMENT */
+
+/* START OF CARDS  */
+.Card_main_div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.card_submain_div {
+  background-color: white;
+}
+
+/* WHAT'S NEW CARD CARD SESSION */
+
+.Card_main_div {
+  padding: 30px;
+}
+.whatsnew_main_div_1 {
+  height: 240px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding: 2em 6em;
+  background-color: white;
+}
+
+.whatsnew_sections_main_div_1 {
+  width: 100%;
+  background-color: white;
+  padding: 10px 30px;
+}
+
+.new_heading_header_1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header_text_1 {
+  font-size: 20px;
+}
+
+.whatsnew_foundation_msg_1 {
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.small_text {
+  font-size: 10px;
+}
+
+.foundation_msg_1 {
+  margin-bottom: 2rem;
+  margin-top: 8px;
+}
+
+.foundation_review_1 {
+}
+
+.foundation_review_msg_1 {
+  text-decoration: none;
+  font-weight: 16px;
+  font-size: initial;
+  font-weight: 700;
+  color: #0055dc;
+  margin-bottom: 1rem;
+}
+/*END OF CARDS*/
 
 .footer_div {
   border: 1px solid orange;

@@ -134,6 +134,7 @@ body {
 }
 .suf:hover {
   color: #d86422;
+  transform: scale(1.05);
 }
 .git {
   text-decoration: none;
