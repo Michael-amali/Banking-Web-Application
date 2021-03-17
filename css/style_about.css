@@ -140,14 +140,10 @@
     color: white;
   }
   .sub_footerItems :first-child:hover{
-  
     color: #d86422;
-    
   }
   .sub_footerItems h4{
-       font-size: 1.3em;
-       
-       
+       font-size: 1.3em;   
   }
   
   .stand{

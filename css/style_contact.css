@@ -97,12 +97,41 @@
     padding-bottom: 32px;
   }
 
+  .background_div{
+      background-color: #f3f3f4;
+  }
+
 
   .inner_calling_div{
       display: grid;
       grid-template-columns: 1fr 1fr;
-      padding: 30px;
+      padding: 30px 120px;   
+      grid-gap: 14px;
+      
+    }
+    .call_img_div{
+        position: relative;
+        top: 11px;
+        text-decoration: none;
+    }
+
+.suf{
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    font-size: larger;
+    background-color: white;
+    padding: 16px;
+    
+}
+.suf:hover{
+    color: #d86422;
   }
+.git{
+    text-decoration: none;
+}
+
+
+
 
     .map_address_div{
         display: grid;
