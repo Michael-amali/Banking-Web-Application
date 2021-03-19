@@ -7,7 +7,7 @@ body {
 }
 .main-container {
   font-family: "Segoe UI";
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
 }
 .header_bar {
   display: grid;
@@ -149,6 +149,46 @@ body {
   color: #3c4b6c;
 }
 /* end visionnnnnnnnnnnnnn */
+
+/* BOX 1 */
+
+.box1 {
+  background-color: #f3f3f4;
+  color: #3c4b6c;
+}
+.box1_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  position: relative;
+  left: 30px;
+  color: #3c4b6c;
+  box-sizing: border-box;
+}
+
+.featured_stuff {
+  position: relative;
+  padding: 30px;
+}
+.box1_head {
+  font-size: larger;
+}
+.featured_pro {
+  position: relative;
+  left: 30px;
+}
+.masa {
+  height: 20px;
+}
+.width-modifier {
+  width: 400px;
+  background-color: white;
+}
+.box1_text {
+}
+.img_width {
+  width: 400px;
+}
 
 .footer_div {
   border: 1px solid orange;
