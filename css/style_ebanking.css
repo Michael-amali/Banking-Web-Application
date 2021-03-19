@@ -7,7 +7,7 @@ body {
 }
 .main-container {
   font-family: "Segoe UI";
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
 }
 .header_bar {
   display: grid;
@@ -223,7 +223,10 @@ button {
 }
 h1 {
   text-align: center;
-  font-size: 18;
+  font-size: 28px;
+}
+#e_txt {
+  color: #3c4b6c;
 }
 button:hover {
   opacity: 0.8;
